@@ -30,7 +30,7 @@ class Solution{
                     
                     int gcdVal = gcd(nums[i], nums[j]);
                     
-                    if( gcdVal!= 1){
+                    if( gcdVal!= 1 && j > split){
                         split = j;
                         
                         if(split == nums.size() -1){
